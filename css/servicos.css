@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    text-align: center;
+    padding: 10px;
+}
+.servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+img {
+    width: 400px;
+    height: 350px;
+    opacity: 0.9;
+    padding: 10px;
+} 
+p {
+    font-size: 15px;
+    text-align: center;
+}
+.secflex {
+    display: flex;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+.servicos-1 {
+    font-size: 20px; 
+    padding: 20px 70px;  
+}
+iframe {
+    width: 700px;
+    height: 350px;
+    padding-bottom: 20px;
+}
+@media (max-width: 700px) {
+    .servicos {
+        display: inline;
+
+    }
+}
+@media (max-width: 900px) {
+    .secflex {
+        display: inline;
+    }
+}
